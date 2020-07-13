@@ -25,6 +25,6 @@ git merge <nome da branch> -> Mescla alterações de uma branch para a branch at
 git diff <nome do arquivo> -> Mostra as modificações feitas no arquivo.
 git checkout -- <nome do arquivo> -> Reseta as alterações feitas no arquivo.
 git restore <nome do arquivo> -> Restaura um arquivo para a última revisão.
-git commit --amend -> Edita a mensagem do último commit.
+git commit --amend -> Edita a mensagem do último commit feito.
 git reset HEAD <nome do arquivo> -> Retira um arquivo adicionado para commitar.
 git log --stat -> Consulta os commits e suas estatísticas abreviadas.
