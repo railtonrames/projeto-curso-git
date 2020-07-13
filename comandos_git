@@ -1,0 +1,30 @@
+Comandos Git:
+
+git init -> Cria um repositório git vazio ou reinicializa um existe.
+git clone <url> -> Clona um repositório dentro de um novo diretório.
+git add . -> Adiciona todos os arquivos para serem commitados.
+git add <arquivo> -> Adiciona um arquivo específico para ser commitado.
+git commit -m '<mensagem>' -> Salva alterações para o repositório.
+git push -> Publica as alterações em um servidor remoto.
+git pull -> Atualiza reposotório local conforme repositório remoto.
+git merge -> Une duas ou mais branchs de desenvolvimento.
+git status -> Mostra o status atual do projeto.
+git log -> Retorna o histórico do projeto.
+git branch -> Lista todas as branchs e informa qual a selecionada.
+git remote add origin <url> -> Determina origem do repositório.
+git remote rm origin -> Remove uma origem remota.
+git push -u origin master -> Iguala as versões de repositório local e remoto.
+git config --global user.email "<seu e-mail>" -> Altera e-mail de indentificação.
+git config --global user.name "<seu nome>" -> Altera o nome de indentificação.
+git checkout -b <nome da branch> -> Cria uma nova branch e seleciona ela.
+git checkout <nome da branch> -> Muda de branch.
+git checkout -D <nome da branch> -> Deleta a branch.
+git push origin <nome da branch> -> Envia sua branch para o repositório remoto. 
+git remote -v -> Lista os repositórios até a URL.
+git merge <nome da branch> -> Mescla alterações de uma branch para a branch ativa.
+git diff <nome do arquivo> -> Mostra as modificações feitas no arquivo.
+git checkout -- <nome do arquivo> -> Reseta as alterações feitas no arquivo.
+git restore <nome do arquivo> -> Restaura um arquivo para a última revisão.
+git commit --amend -> Edita a mensagem do último commit.
+git reset HEAD <nome do arquivo> -> Retira um arquivo adicionado para commitar.
+git log --stat -> Consulta os commits e suas estatísticas abreviadas.
